@@ -22,7 +22,7 @@ public class Code04 {
 		else if(gender.equals("female"))
 			System.out.println(name+",you're"+age+"years old woman.");
 		else
-			System.out.println("wow... you're ?????"); //wow
+			System.out.println("wow... you're ?????"); 
 
 	}
 

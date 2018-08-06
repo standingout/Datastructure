@@ -10,11 +10,11 @@ public class Code08 {
 
 	public static void main(String[] args) {
 		
-		Scanner kb = new Scanner(System.in);    //Scanner 인스턴스화
-		int n = kb.nextInt(); // 사용자로부터 n의 정수를 입력받음
-		int [] data= new int[n];  // n개만큼의 배열을 담을 수 있는 배열을 입력받는다.
+		Scanner kb = new Scanner(System.in);    //Scanner 클래스 객체만들기
+		int n = kb.nextInt(); 					// 사용자로부터 n의 정수를 입력받음
+		int [] data= new int[n];  				// n개만큼의 배열을 담을 수 있는 배열을 입력받는다.
 		
-		for(int i=0;i<n;i++) // 사용자로부터 n개의 정수를 입력받는다.
+		for(int i=0;i<n;i++)					// 사용자로부터 n개의 정수를 입력받는다.
 			data[i] = kb.nextInt();
 		
 		int count = 0;
@@ -25,7 +25,7 @@ public class Code08 {
 			}
 		}
 		
-		System.out.println("중복된 정수쌍은 총 "+count+"쌍입니다.");
+		System.out.println("중복된 정수쌍은 총 "+count+"쌍입니다."); //정수쌍
 		
 
 	}
