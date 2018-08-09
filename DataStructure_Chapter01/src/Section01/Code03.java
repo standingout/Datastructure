@@ -12,6 +12,8 @@ public class Code03 {
 		
 		input = keyboard.next();
 		
+		keyboard.close();
+		
 		if(str.equals(input)) {
 			System.out.println("Strings match:-)");	
 		}
