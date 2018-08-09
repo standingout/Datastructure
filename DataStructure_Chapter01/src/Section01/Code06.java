@@ -15,6 +15,8 @@ public class Code06 {
 			data[i] = kb.nextInt();
 		}
 		
+		kb.close();
+		
 		System.out.println("Á¤·Ä Àü");
 
 		for(int i=0; i<n; i++) {
