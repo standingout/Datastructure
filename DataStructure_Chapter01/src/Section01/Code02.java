@@ -13,6 +13,8 @@ public class Code02 {
 		
 		int input = keyboard.nextInt();
 		
+		keyboard.close();
+		
 		if(input == number) {
 			System.out.println("Numbers match :-)");	
 		}
