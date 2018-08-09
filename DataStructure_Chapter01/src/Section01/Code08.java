@@ -17,6 +17,8 @@ public class Code08 {
 		for(int i=0;i<n;i++)					// 사용자로부터 n개의 정수를 입력받는다.
 			data[i] = kb.nextInt();
 		
+		kb.close();
+		
 		int count = 0;
 		for(int i=0;i<n-1;i++) {
 			for(int j=i+1;j<n;j++) {
@@ -25,7 +27,7 @@ public class Code08 {
 			}
 		}
 		
-		System.out.println("중복된 정수쌍은 총 "+count+"쌍입니다."); //정수쌍
+		System.out.println("중복된 정수쌍은 총 "+count+"쌍입니다."); 
 		
 
 	}
