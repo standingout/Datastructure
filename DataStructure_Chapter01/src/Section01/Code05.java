@@ -20,6 +20,8 @@ public class Code05 {
 			data[i] = kb.nextInt();
 		}
 		
+		kb.close();
+		
 		int sum = 0, max = data[0];
 		
 		for(int i=0; i<n; i++) {
